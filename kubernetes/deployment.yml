@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: mojito-deployment
+  labels:
+    app: mojito
+  namespace: mojito
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: mojito
+
+  template:
+    metadata:
+      labels:
+        app: mojito
+
+    spec:
+      containers:
+        - name: mojito-container
+          image: spidey8989/mojito:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
