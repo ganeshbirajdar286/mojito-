@@ -1,9 +1,9 @@
 services:
-  tmp28f9y_4i:
+  tmpa07gmwd0:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: tmp28f9y_4i-tmp28f9y_4i
+    container_name: tmpa07gmwd0-tmpa07gmwd0
     restart: unless-stopped
     ports:
       - "80:80"
