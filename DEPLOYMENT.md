@@ -1,11 +1,11 @@
-# DevOps Configuration for tmp637frryj
+# DevOps Configuration for tmp28f9y_4i
 
 This repository has been configured automatically by the **AI DevOps Agent**.
 
 ## Architecture Summary
 
 - **Repository Type:** Single Service
-- **Service `tmp637frryj`:**
+- **Service `tmp28f9y_4i`:**
   - Framework: `react_vite`
   - Language: `javascript`
   - Package Manager: `npm`
