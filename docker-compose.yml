@@ -1,0 +1,11 @@
+services:
+  tmp7wk6pg0p:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tmp7wk6pg0p-tmp7wk6pg0p
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    environment:
+      - PORT=80
