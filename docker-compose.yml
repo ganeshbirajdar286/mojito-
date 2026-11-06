@@ -1,9 +1,9 @@
 services:
-  tmp7wk6pg0p:
+  tmp637frryj:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: tmp7wk6pg0p-tmp7wk6pg0p
+    container_name: tmp637frryj-tmp637frryj
     restart: unless-stopped
     ports:
       - "80:80"
